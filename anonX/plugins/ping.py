@@ -5,10 +5,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
-from AnonX import app
-from AnonX.core.call import Anon
-from AnonX.utils import bot_sys_stats
-from AnonX.utils.decorators.language import language
+from AellyX import app
+from AellyX.core.call import Anon
+from AellyX.utils import bot_sys_stats
+from AellyX.utils.decorators.language import language
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")

@@ -1,8 +1,8 @@
-from AnonX.core.bot import AnonXBot
-from AnonX.core.dir import dirr
-from AnonX.core.git import git
-from AnonX.core.userbot import Userbot
-from AnonX.misc import dbb, heroku, sudo
+from AellyX.core.bot import AellyXBot
+from AellyX.core.dir import dirr
+from AellyX.core.git import git
+from AellyX.core.userbot import Userbot
+from AellyX.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = AnonXBot()
+app = AellyXBot()
 
 # Assistant Client
 userbot = Userbot()

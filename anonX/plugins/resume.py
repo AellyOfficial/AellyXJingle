@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.core.call import Anon
-from AnonX.utils.database import is_music_playing, music_on
-from AnonX.utils.decorators import AdminRightsCheck
+from AellyX import app
+from AellyX.core.call import Anon
+from AellyX.utils.database import is_music_playing, music_on
+from AellyX.utils.decorators import AdminRightsCheck
 
 # Commands
 RESUME_COMMAND = get_command("RESUME_COMMAND")

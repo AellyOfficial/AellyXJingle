@@ -9,14 +9,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import db
-from AnonX.utils import (Anonbin, get_channeplayCB,
+from AellyX import app
+from AellyX.misc import db
+from AellyX.utils import (Anonbin, get_channeplayCB,
                               seconds_to_min)
-from AnonX.utils.database import (get_cmode, is_active_chat,
+from AellyX.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline import queue_back_markup, queue_markup
+from AellyX.utils.decorators.language import language, languageCB
+from AellyX.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")

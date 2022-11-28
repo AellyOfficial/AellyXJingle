@@ -3,14 +3,14 @@ import asyncio
 from pyrogram.types import InlineKeyboardMarkup
 
 from strings import get_string
-from AnonX.misc import db
-from AnonX.utils.database import (get_active_chats, get_lang,
+from AellyX.misc import db
+from AellyX.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
-from AnonX.utils.formatters import seconds_to_min
-from AnonX.utils.inline import (stream_markup_timer,
+from AellyX.utils.formatters import seconds_to_min
+from AellyX.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
-from AnonX.plugins.callback import wrong
+from AellyX.plugins.callback import wrong
 
 checker = {}
 

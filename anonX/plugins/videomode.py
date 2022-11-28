@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 import config
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import add_off, add_on
-from AnonX.utils.decorators.language import language
+from AellyX import app
+from AellyX.misc import SUDOERS
+from AellyX.utils.database import add_off, add_on
+from AellyX.utils.decorators.language import language
 
 # Commands
 VIDEOMODE_COMMAND = get_command("VIDEOMODE_COMMAND")

@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAnonymous2005/AellyXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AellyOfficial/AellyXJingle")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -76,8 +76,8 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/56d1760224589ee370186.jpg")
-
+START_IMG_URL = getenv("START_IMG_URL", 
+"https://telegra.ph/file/27516020e3cb357a41885.png"
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
     "https://telegra.ph/file/56d1760224589ee370186.jpg",

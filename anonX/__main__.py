@@ -52,7 +52,7 @@ async def init():
     await userbot.start()
     await Anon.start()
     try:
-        await Anon.stream_decall("https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4")
+        await Anon.stream_decall("https://telegra.ph/file/905e9c5c4b5c760a4045e.mp4")
     except:
         pass
     try:
@@ -61,7 +61,7 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("AnonX").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
+            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group. If you ever ended voice chat in log group i will stop working."
         )
         sys.exit()
     except:
